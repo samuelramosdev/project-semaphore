@@ -6,3 +6,10 @@ const turnOn = {
   'yellow': () => img.src = './img/amarelo.png',
   'green': () => img.src = './img/verde.png',
 }
+
+const semaphore = (event) => {
+  const buttonClicked = event.target.id;
+  turnOn[buttonClicked]();
+}
+
+buttons.addEventListener('click', semaphore);
