@@ -12,6 +12,26 @@ main {
   justify-content: center;
   gap: 5vh;
 }
+
 .button {
   width: 80px;
+}
+
+footer {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+#vermelho1 {
+  width: 200px;
+  background-color: red;
+}
+
+#vermelho1 p {
+  width: 200px;
+  background-color: red;
 }
